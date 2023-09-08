@@ -15,5 +15,5 @@ Step:3 - Write the code to hit requests continouly it is working or not. -- Term
 Step:4 - To see weather load is distributing or not. -- Terminal-2
          kubectl logs [PODNAME] -f [to monitor the logs]
 Step:5 - Now, move to step3[Terminal-1] - and hit nginx service 20 times.
-
 Note: Load is distributing 20 times.
+Step:6 - kubectl get endpoints - To see which pods associated with the sevrice.
